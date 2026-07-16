@@ -32,7 +32,8 @@ targets:
     platform: iOS
     sources: [roomledgerTests]
     dependencies:
-      - target: roomledger    settings:
+      - target: roomledger
+    settings:
       base:
         GENERATE_INFOPLIST_FILE: "YES"
 
@@ -41,7 +42,8 @@ targets:
     platform: iOS
     sources: [roomledgerUITests]
     dependencies:
-      - target: roomledger    settings:
+      - target: roomledger
+    settings:
       base:
         GENERATE_INFOPLIST_FILE: "YES"
 
